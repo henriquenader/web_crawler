@@ -1,0 +1,33 @@
+### Installation: 
+
+    - Download Google Chrome
+
+    On your command line or Terminal, run the following commands:
+
+
+    - To install the packages listed in a requirements.txt file, you can use the pip command with the -r or --requirement option.
+
+    Here is an example of how you would use the pip command to install the packages listed in a requirements.txt file:
+
+    pip install -r requirements.txt
+    
+    This command will install all the packages listed in the requirements.txt file in your current environment. If any of the packages have dependencies, pip will automatically install those as well.
+
+    If you are using a virtual environment, make sure to activate the virtual environment before running the pip command. For example:
+    
+    source path/to/env/bin/activate
+    pip install -r requirements.txt
+
+
+    - Go to this website: https://sites.google.com/a/chromium.org/chromedriver/downloads and download the latest version of chromedriver for your operational system.
+
+    - Extract the downloaded file: After downloading ChromeDriver, extract the contents of the ZIP file to a directory on your machine. - Add the ChromeDriver executable to your PATH: To be able to use ChromeDriver from the command line, you need to add the directory containing the ChromeDriver executable to your system's PATH. This allows you to run the ChromeDriver executable from any directory.
+
+    - On your command line or terminal go to the folder that you unziped the files.
+
+    - Type: streamlit run streamlit_app.py
+
+    - The program will run on a localhost
+
+
+Obs.: To get indeed website, we needed to let it open a chrome file. It's a simple thing, but the website changes when it runs on the background.
