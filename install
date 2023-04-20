@@ -1,0 +1,10 @@
+#!/bin/bash
+DIR=$(dirname "$0")
+cd "$DIR"
+pip install pandas
+pip install numpy
+pip install streamlit
+pip install re
+pip install json
+pip install datetime
+pip install time

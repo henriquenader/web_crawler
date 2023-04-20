@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  streamlit_app:
+    build: .
+    image: webcrawler
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    command: streamlit run app.py
+    platform: linux/amd64
